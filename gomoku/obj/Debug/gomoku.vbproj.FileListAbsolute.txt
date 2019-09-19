@@ -1,0 +1,75 @@
+\\EQGBN2003022\mlee221$\My Documents\IPT TERM 3\gomoku\gomoku\bin\Debug\gomoku.exe.config
+\\EQGBN2003022\mlee221$\My Documents\IPT TERM 3\gomoku\gomoku\obj\Debug\gomoku.vbprojResolveAssemblyReference.cache
+\\EQGBN2003022\mlee221$\My Documents\IPT TERM 3\gomoku\gomoku\obj\Debug\gomoku.Form1.resources
+\\EQGBN2003022\mlee221$\My Documents\IPT TERM 3\gomoku\gomoku\obj\Debug\gomoku.Resources.resources
+\\EQGBN2003022\mlee221$\My Documents\IPT TERM 3\gomoku\gomoku\obj\Debug\gomoku.vbproj.GenerateResource.Cache
+\\EQGBN2003022\mlee221$\My Documents\IPT TERM 3\gomoku\gomoku\obj\Debug\gomoku.xml
+J:\GOMOKU\gomoku\gomoku\bin\Debug\gomoku.exe.config
+J:\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.xml
+J:\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.vbprojResolveAssemblyReference.cache
+J:\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.Resources.resources
+J:\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.vbproj.GenerateResource.Cache
+J:\GOMOKU\gomoku\gomoku\bin\Debug\gomoku.exe
+J:\GOMOKU\gomoku\gomoku\bin\Debug\gomoku.pdb
+J:\GOMOKU\gomoku\gomoku\bin\Debug\gomoku.xml
+J:\GOMOKU\gomoku\gomoku\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+J:\GOMOKU\gomoku\gomoku\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+J:\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.exe
+J:\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.pdb
+E:\GOMOKU\gomoku\gomoku\bin\Debug\gomoku.exe.config
+E:\GOMOKU\gomoku\gomoku\bin\Debug\gomoku.exe
+E:\GOMOKU\gomoku\gomoku\bin\Debug\gomoku.pdb
+E:\GOMOKU\gomoku\gomoku\bin\Debug\gomoku.xml
+E:\GOMOKU\gomoku\gomoku\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+E:\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.vbprojResolveAssemblyReference.cache
+E:\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.Resources.resources
+E:\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.vbproj.GenerateResource.Cache
+E:\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.exe
+E:\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.xml
+E:\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.pdb
+J:\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.GameMode.resources
+J:\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.MainMenu.resources
+J:\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.SinglePlayer.resources
+J:\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.TwoPlayer.resources
+J:\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.About.resources
+J:\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.Help.resources
+J:\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.MatchHistory.resources
+J:\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.SingleMenu.resources
+J:\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.TwoMenu.resources
+E:\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.About.resources
+E:\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.SinglePlayer.resources
+E:\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.GameMode.resources
+E:\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.Help.resources
+E:\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.MainMenu.resources
+E:\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.MatchHistory.resources
+E:\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.SingleMenu.resources
+E:\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.TwoMenu.resources
+E:\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.TwoPlayer.resources
+J:\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.HardMode.resources
+C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\bin\Debug\gomoku.exe.config
+C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\bin\Debug\gomoku.exe
+C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\bin\Debug\gomoku.pdb
+C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\bin\Debug\gomoku.xml
+C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.vbprojResolveAssemblyReference.cache
+C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.About.resources
+C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.HardMode.resources
+C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.SinglePlayer.resources
+C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.GameMode.resources
+C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.Help.resources
+C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.MainMenu.resources
+C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.MatchHistory.resources
+C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.Resources.resources
+C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.SingleMenu.resources
+C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.TwoMenu.resources
+C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.TwoPlayer.resources
+C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.vbproj.GenerateResource.Cache
+C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.exe
+C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.xml
+C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.pdb
+E:\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.HardMode.resources
+C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\bin\Debug\Interop.WMPLib.dll
+C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\obj\Debug\Interop.WMPLib.dll
+C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\obj\Debug\gomoku.vbproj.ResolveComReference.cache
