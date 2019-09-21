@@ -3,7 +3,7 @@
     Dim count As Integer
 
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
-        My.Computer.Audio.Play("C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\bin\Debug\Button.wav")    'play sound effect and open game mode menu
+        My.Computer.Audio.Play(My.Resources.Button, AudioPlayMode.Background)    'play sound effect and open game mode menu
         GameMode.Show()
         Me.Close()
     End Sub
@@ -38,7 +38,7 @@
     End Sub
 
     Private Sub btnNext_Click(sender As Object, e As EventArgs) Handles btnNext.Click
-        My.Computer.Audio.Play("C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\bin\Debug\Button.wav")            'sound effect
+        My.Computer.Audio.Play(My.Resources.Button, AudioPlayMode.Background)           'sound effect
         p1name = txtP1.Text                                                                            'player1 and player2's usernames are inherited into the next form (the game)
         p2name = txtP2.Text
         TwoPlayer.Show()

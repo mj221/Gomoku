@@ -10,7 +10,6 @@
     Dim Players As Boolean
 
     Private Sub TwoPlayer_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        My.Computer.Audio.Play("C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\bin\Debug\Background.wav")        'plays sound
         creategame()                                                                            'creating game
         lblUsers.Text = TwoMenu.p1name & " (player1) vs. " & TwoMenu.p2name & " (player2)"      'Displaying P1 and P2 Username
 
@@ -39,7 +38,7 @@
         If turn = True Then
             'when turn is true, it is player1's turn
             sender.Text = "X"
-            My.Computer.Audio.Play("C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\bin\Debug\Stone.wav")
+            My.Computer.Audio.Play(My.Resources.Stone, AudioPlayMode.Background)
             sender.enabled = False
             sender.BackColor = Color.Black
             turn = False
@@ -48,7 +47,7 @@
 
         ElseIf turn = False Then
             sender.Text = " "               'when turn is false, it is player2's turn
-            My.Computer.Audio.Play("C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\bin\Debug\Stone.wav")
+            My.Computer.Audio.Play(My.Resources.Stone, AudioPlayMode.Background)
             sender.enabled = False
             sender.Backcolor = Color.White
             sender.ForeColor = Color.White
@@ -211,7 +210,7 @@
     End Sub
 
     Private Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click
-        My.Computer.Audio.Play("C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\bin\Debug\Button.wav")
+        My.Computer.Audio.Play(My.Resources.Button, AudioPlayMode.Background)
         Dim result = MessageBox.Show(" Do you wish to go to the Game Menu? All progress will be lost.", "Confirm", MessageBoxButtons.YesNo)
         tmrGame.Enabled = False
         If result = DialogResult.Yes Then
@@ -224,7 +223,7 @@
     End Sub
 
     Private Sub btnMainMenu_Click(sender As Object, e As EventArgs) Handles btnMainMenu.Click
-        My.Computer.Audio.Play("C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\bin\Debug\Button.wav")
+        My.Computer.Audio.Play(My.Resources.Button, AudioPlayMode.Background)
         Dim result = MessageBox.Show(" Do you wish to go to the Main Menu? All progress will be lost.", "Confirm", MessageBoxButtons.YesNo)
         tmrGame.Enabled = False
         If result = DialogResult.Yes Then
@@ -288,7 +287,7 @@
     End Sub
 
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
-        My.Computer.Audio.Play("C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\bin\Debug\Background.wav")
+        My.Computer.Audio.Play(My.Resources.Background, AudioPlayMode.BackgroundLoop)
     End Sub
 End Class
 

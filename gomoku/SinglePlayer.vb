@@ -47,7 +47,7 @@
 
         sender.Text = "X"
         sender.enabled = False
-        My.Computer.Audio.Play("C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\bin\Debug\Stone.wav")
+        My.Computer.Audio.Play(My.Resources.Stone, AudioPlayMode.Background)
         btnUndo.Enabled = True
         btnRedo.Enabled = True
         sender.BackColor = Color.Black
@@ -344,7 +344,7 @@
         Help.Show()
     End Sub
     Private Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click
-        My.Computer.Audio.Play("C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\bin\Debug\Button.wav")
+        My.Computer.Audio.Play(My.Resources.Button, AudioPlayMode.Background)
         Dim result = MessageBox.Show(" Do you wish to go to the Game Menu? All progress will be lost.", "Confirm", MessageBoxButtons.YesNo)
         tmrGame.Enabled = False
         If result = DialogResult.Yes Then
@@ -356,7 +356,7 @@
         End If
     End Sub
     Private Sub btnMainMenu_Click(sender As Object, e As EventArgs) Handles btnMainMenu.Click
-        My.Computer.Audio.Play("C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\bin\Debug\Button.wav")
+        My.Computer.Audio.Play(My.Resources.Button, AudioPlayMode.Background)
         Dim result = MessageBox.Show(" Do you wish to go to the Main Menu? All progress will be lost.", "Confirm", MessageBoxButtons.YesNo)
         tmrGame.Enabled = False
         If result = DialogResult.Yes Then
@@ -412,7 +412,7 @@
     End Sub
 
     Private Sub btnUndo_Click(sender As Object, e As EventArgs) Handles btnUndo.Click
-        My.Computer.Audio.Play("C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\bin\Debug\ting.wav")
+        My.Computer.Audio.Play(My.Resources.Button, AudioPlayMode.Background)
         Board(alty2, altx2).Enabled = True
         Board(alty2, altx2).Text = ""
         Board(alty2, altx2).BackColor = Color.RosyBrown
@@ -446,11 +446,11 @@
     End Sub
 
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
-        My.Computer.Audio.Play("C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\bin\Debug\Background.wav")
+        My.Computer.Audio.Play(My.Resources.Background, AudioPlayMode.BackgroundLoop)
     End Sub
 
     Private Sub btnRedo_Click(sender As Object, e As EventArgs) Handles btnRedo.Click
-        My.Computer.Audio.Play("C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\bin\Debug\ting.wav")
+        My.Computer.Audio.Play(My.Resources.ting, AudioPlayMode.Background)
         Board(alty2, altx2).Enabled = False
         emptyspace(alty2, altx2).avail = False
         Board(alty2, altx2).Text = "X"

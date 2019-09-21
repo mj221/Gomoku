@@ -60,7 +60,7 @@
 
     End Sub
     Private Sub board_click(sender As Object, ByVal e As EventArgs)
-        My.Computer.Audio.Play("C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\bin\Debug\Stone.wav")         'sound effect when placing a stone
+        My.Computer.Audio.Play(My.Resources.Stone, AudioPlayMode.Background)        'sound effect when placing a stone
         sender.Text = "X"           'the player's placement is initally marked X
         sender.enabled = False      'disable that placement permanently 
         btnUndo.Enabled = True      'since now the user has placed a stone, he is able to 'Undo' his actions
@@ -677,7 +677,7 @@
         Help.Show()
     End Sub
     Private Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click   'Confirms exit
-        My.Computer.Audio.Play("C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\bin\Debug\Button.wav")
+        My.Computer.Audio.Play(My.Resources.Button, AudioPlayMode.Background)
         Dim result = MessageBox.Show(" Do you wish to go to the Game Menu?", "Confirm", MessageBoxButtons.YesNo)
         tmrGame.Enabled = False
         If result = DialogResult.Yes Then
@@ -689,7 +689,7 @@
         End If
     End Sub
     Private Sub btnMainMenu_Click(sender As Object, e As EventArgs) Handles btnMainMenu.Click       'Confirms exit
-        My.Computer.Audio.Play("C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\bin\Debug\Button.wav")
+        My.Computer.Audio.Play(My.Resources.Button, AudioPlayMode.Background)
         Dim result = MessageBox.Show(" Do you wish to go to the Main Menu?", "Confirm", MessageBoxButtons.YesNo)
         tmrGame.Enabled = False
         If result = DialogResult.Yes Then
@@ -743,7 +743,7 @@
     End Sub
 
     Private Sub btnUndo_Click(sender As Object, e As EventArgs) Handles btnUndo.Click           'Uses the temporary x,y values found eariler to Undo
-        My.Computer.Audio.Play("C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\bin\Debug\ting.wav")
+        My.Computer.Audio.Play(My.Resources.ting, AudioPlayMode.Background)
         Board(alty2, altx2).Enabled = True
         Board(alty2, altx2).Text = ""
         Board(alty2, altx2).BackColor = Color.RosyBrown
@@ -776,11 +776,11 @@
     End Sub
 
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
-        My.Computer.Audio.Play("C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\bin\Debug\Background.wav")        'plays background music if clicked
+        My.Computer.Audio.Play(My.Resources.Background, AudioPlayMode.BackgroundLoop)        'plays background music if clicked
     End Sub
 
     Private Sub btnRedo_Click(sender As Object, e As EventArgs) Handles btnRedo.Click   'Uses the temporary x,y values found eariler to Redo
-        My.Computer.Audio.Play("C:\Users\MJL\Desktop\GOMOKU\gomoku\gomoku\bin\Debug\ting.wav")
+        My.Computer.Audio.Play(My.Resources.ting, AudioPlayMode.Background)
         Board(alty2, altx2).Enabled = False
         emptyspace(alty2, altx2).avail = False
         Board(alty2, altx2).Text = "X"

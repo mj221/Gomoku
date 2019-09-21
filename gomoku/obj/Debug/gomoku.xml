@@ -22,5 +22,25 @@ gomoku
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:gomoku.My.Resources.Resources.Background">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:gomoku.My.Resources.Resources.Button">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:gomoku.My.Resources.Resources.Stone">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:gomoku.My.Resources.Resources.ting">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
 </members>
 </doc>
